@@ -78,6 +78,9 @@
         </nav>
 
         <main class="py-4">
+            <div class="col-md-4 offset-4 mt-4">
+                @include('partials.flash-message')
+                </div>
             @yield('content')
         </main>
     </div>
