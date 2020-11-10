@@ -61,6 +61,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
+## INSTALLATION PROCEDURE :
+
+- **Run Composer install**
+- **Run the database migration: php artisan migrate**
+- **Run the database seeder: php artisan db:seed**
+- **Run the application: php artisan serve**
+- **Make sure to configure the DB connection in the .env file/ if not found,change .env-example to .env and configure it**
+- **Admin Password: admin**
+- **Admin Emaill: admin@admin.com'**
+
 
 ## How to Generate Auth in Laravel - 7
 ### Authentication scaffolding is used to design login systems for users in Laravel
